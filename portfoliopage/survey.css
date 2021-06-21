@@ -1,0 +1,67 @@
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    background-image: url(çöl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#blogpagename {
+    padding: 5px;
+    padding-left: 15px;
+    font-size: large;
+    color: wheat;
+}
+
+#navigation {
+    padding-top: 25px;
+    padding-right: 15px;
+}
+
+button {
+    background-color: #123650;
+    color: wheat;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+main {
+    height: 75%;
+
+    color: #123650;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+#bilgiler {
+    background-color: #123650;
+    opacity: 0.7;
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+    color: white;
+}
+
+footer h5 {
+    float: left;
+    width: 75%;
+    padding-left: 10px;
+    color: wheat;
+}
+
+footer a {
+    float: right;
+}
+
+footer a img {
+    padding-top: 10px;
+    padding-right: 10px;
+}

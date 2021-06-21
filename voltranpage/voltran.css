@@ -1,0 +1,60 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  background-color: red;
+  text-align: center;
+  padding: 15px;
+  width: 100%;
+  position: fixed;
+}
+header h1{
+  border: 5px solid white;
+  color: white;
+  display: inline-block;
+  border-radius: 35px;
+  padding: 10px;
+}
+.nav{
+  background-color: lightgray;
+  padding: 15px;
+  margin: -5px;
+  position:sticky;
+  top: 90px;
+  width: 100%;
+  
+}
+
+.nav ul{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.nav ul li{
+  list-style-type: none;
+}
+
+.nav ul li a{
+  text-decoration:none;
+  
+}
+.nav ul li a:link{
+  color: black;
+}
+.nav ul li a:visited{
+  color:brown;
+}
+.nav ul li a:hover{
+  color:cadetblue;
+}
+
+main article{
+  text-align: center;
+}
+
+
+

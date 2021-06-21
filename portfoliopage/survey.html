@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+
+<body>
+    <header>
+        <div id="container">
+            <div id="blogpagename">
+                <h3>Hakan Karaahmet's Blog Page</h3>
+            </div>
+            <div id="navigation">
+                <a href="https://github.com/hakankaraahmet" target="_blank"><button>About</button> </a>
+                <a href="https://www.google.com." target="_blank"><button>Contact</button></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="container2">
+            <div id="başlık">
+                <h1>SURVEY FORM SUCCESS COACHING</h1>
+                <h4>Thank you for taking the time to look through my projects</h4>
+            </div>
+            <div id="bilgiler">
+                <form>
+                    <label for="fname">Name:</label><br>
+                    <input type="text" id="fname" placeholder="Enter Your Name"><br>
+                    <label for="sname">Surname:</label><br>
+                    <input type="text" id="sname" placeholder="Enter Your Surname"><br>
+                    <label for="email">E-mail Adress</label><br>
+                    <input type="text" id="email" placeholder="Enter Your E-mail"><br>
+                    <label for="age">Age</label><br>
+                    <input type="text" id="age" placeholder="Enter Your Age"><br>
+                    <p>Please select your gender</p>
+                    <input type="radio" id="male" name="gender">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" name="gender">
+                    <label for="other">Other</label><br>
+                    <label for="salary">Please enter your salary:</label>
+                    <select name="salary" id="salary">
+                        <option value="default">Değeri giriniz</option>
+                        <option value="0-3">0-3K</option>
+                        <option value="3-5">3-5K</option>
+                        <option value="5-10">5-10K</option>
+                        <option value="10+">10+K</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h5>Designed by Hakan Karaahmet</h5>
+        <a href="https://twitter.com/karaahmetogluhk" target="_blank"><img src="twitter.png" width="40px"
+                height="40px"></a>
+    </footer>
+</body>
+
+</html>
