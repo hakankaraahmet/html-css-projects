@@ -1,0 +1,132 @@
+body,
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    line-height: 1.8rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #35424a;
+    border-bottom: 5px solid #a8508b;
+    font-size: larger;
+    height: 7%;
+}
+
+header span {
+    color: #a8508b;
+}
+
+#web-design{
+    margin-left: 0.5%;
+    padding: 0.7%;
+}
+
+header div ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#nav-bar ul li{
+    list-style-type: none;
+    padding: 5%;
+    margin-right: 15%;   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+#services{
+    color: #a8508b;
+}
+
+#about-us{
+    display: flex;
+    text-align: justify;
+    justify-content: space-between;
+    min-height: 800px;
+}
+
+
+#about-us--left{
+    min-width: 55%;
+    padding: 2%;
+}
+
+#about-us--right{
+    max-width: 35%;
+    padding: 2%;
+    background-color: #35424a;
+    max-height: 300px;
+    margin-top: 2%;
+    margin-right: 3%;
+    color: white;
+}
+
+input{
+    min-width: 97.5%;
+    padding: 1%;
+}
+
+#about-us--left-design,
+#about-us--left-maintenance,
+#about-us--left-hosting{
+    background-color: #e6e6e6;
+    padding: 3%;
+    margin-top: 1%;
+}
+
+#about-us--right-button{
+    background-color: #e8491d;
+    color: white;
+    padding: 3% 5%;
+    border-radius: 5%;
+}
+
+#subscribe{
+    display: flex;
+    justify-content: space-between;
+    background-color: #35424a;
+    color: white;
+    align-items: center;
+    padding: 0.5%;
+    min-height: 50px;
+}
+
+#subscribe--input--button{
+    background-color: #e8491d;
+    color: white;
+    border: none;
+    padding: 5%;
+    margin-left: 2%;
+}
+
+#subscribe--input{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#Email{
+    min-width: 120%;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #35424a;
+    color: white;
+    font-size: large;
+    padding-bottom: 2%;
+}
